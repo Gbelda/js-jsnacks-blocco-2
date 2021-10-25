@@ -6,22 +6,22 @@ let footballTeams = [
     {
         name: 'Inter F.C',
         goals: 0,
-        penalty: 0,
+        fouls: 0,
     },
     {
         name: ' A.C Milan',
         goals: 0,
-        penalty: 0,
+        fouls: 0,
     },
     {
         name: 'Juventus F.C',
         goals: 0,
-        penalty: 0,
+        fouls: 0,
     },
     {
         name: 'S.S Lazio',
         goals: 0,
-        penalty: 0,
+        fouls: 0,
     },
 ]
 
