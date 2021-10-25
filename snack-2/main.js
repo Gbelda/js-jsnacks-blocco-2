@@ -25,3 +25,14 @@ let footballTeams = [
     },
 ]
 
+for (let index = 0; index < footballTeams.length; index++) {
+    const team = footballTeams[index];
+    team.goals = getRandomnumber(10, 50)
+    team.fouls = getRandomnumber(10, 30)
+
+
+}
+
+function getRandomnumber(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+}
