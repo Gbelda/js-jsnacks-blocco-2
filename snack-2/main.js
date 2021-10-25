@@ -36,3 +36,23 @@ for (let index = 0; index < footballTeams.length; index++) {
 function getRandomnumber(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
+
+for (const key in footballTeams) {
+    const element = footballTeams[key];
+
+}
+
+/* 
+Usando la destrutturazione ,creare un nuovo array i cui elementi contengono solo nomi e falli subiti e stampare tutto in console.
+ */
+let teamFouls = []
+for (const key in footballTeams) {
+    const team = footballTeams[key];
+
+    let { name, fouls } = team
+
+    teamFouls = [
+        name, fouls
+    ]
+    console.log(teamFouls);
+}
