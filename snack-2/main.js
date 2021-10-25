@@ -14,12 +14,12 @@ let footballTeam = [
         penalty: 0,
     },
     {
-        name: 'Juventus',
+        name: 'Juventus F.C',
         goals: 0,
         penalty: 0,
     },
     {
-        name: 'Lazio',
+        name: 'S.S Lazio',
         goals: 0,
         penalty: 0,
     },
