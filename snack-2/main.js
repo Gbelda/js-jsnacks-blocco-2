@@ -2,7 +2,7 @@
 Ogni squadra avrà diverse proprietà: nome, punti fatti e falli subiti.
 Nome sarà l’unica proprietà da compilare, mentre le altre saranno tutte settate a 0. */
 
-let footballTeam = [
+let footballTeams = [
     {
         name: 'Inter F.C',
         goals: 0,
@@ -24,3 +24,4 @@ let footballTeam = [
         penalty: 0,
     },
 ]
+
